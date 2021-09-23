@@ -1,5 +1,10 @@
 window.onload = () => {
-const parrafo = document.getElementById('text')
-parrafo.innerHTML = '<li>elemento 1</li><li>elemento 2<li'
+    const form = document.getElementById('todo-form');
+    form.onsubmit = () => {
+        e.preventDefault();
+        const todo = document.getElementById('todo');
+        const todoText = todo.value;
+        todo.value = '';
+        console.log(todoText);
 }
-fgfgfg
+}
