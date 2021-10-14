@@ -51,3 +51,51 @@ const resultadosuma1 = suma(1,2)
 const resultadosuma2 = suma(5,6)
 const resultadosuma3 = suma(resultadosuma1,resultadosuma2)
 console.log('resultado',resultadosuma3);
+
+const resultado3 = 5<6
+const resultado4 = 5<5
+const resultado5 = 5<5
+const resultado6 = 5<4
+const resultado7 = 5<3
+const resultado8 = 5<34
+const resultado9 = 5<2
+const resultado10 = 5<6
+
+const resultado11 = 5<1
+const resultado12 = 5<63
+console.log(resultado3,resultado4)
+
+
+const edad = 5
+if (edad > 5 && edad < 13) {
+console.log('el niño puede jugar')
+} else {
+    console.log('no puede jugar')
+}
+
+
+let x = false;
+while (x) {
+    console.log(x)
+   x = false
+}
+
+switch(lala) {
+case 1: {
+    console.log('yo soy el caso 1')
+    break
+    }
+
+case 2: {
+    console.log('chanchito feliz')
+    break;
+        }
+
+case 3: {
+    console.log('no hay chanchito feliz')
+     break;
+}
+default: 
+    console.log('no hay chanchito')
+    break;
+}      
